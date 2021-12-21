@@ -16,6 +16,7 @@
 }
 
 html {
+    tab-size: 4;
     height: 100%;
     outline: none;
     box-sizing: border-box;
@@ -275,7 +276,7 @@ select {
 
 input,
 textarea {
-    // IOS FIX - iOS adds a very subtle inset shadow to inputs : those have a transparent BG
+    // IOS FIX - iOS adds a very subtle inset shadow to inputs - *on those have a transparent BG
     appearance: none;
 
     &::placeholder {
@@ -297,8 +298,7 @@ select {
     user-select: none;
 
     &:disabled {
-        // Vital Mobile Web Fix
-        opacity: 1;
+        opacity: 1; // Vital Mobile Web Fix
     }
 }
 
