@@ -8,6 +8,6 @@ To rapidly include the minified production file in your webpage
 
 `https://cdn.jsdelivr.net/gh/KunalTanwar/normalize-css/css/normalize.min.css`
 
-An optional version `normalize.inter.scss` or `normalize.inter.min.css` in which [Inter](https://github.com/rsms/inter) is set as default font.
+An optional version **normalize.inter.scss** or **normalize.inter.min.css** in which [Inter](https://github.com/rsms/inter) is set as default font.
 
 `https://cdn.jsdelivr.net/gh/KunalTanwar/normalize-css/css/normalize.inter.min.css`
