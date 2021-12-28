@@ -8,7 +8,9 @@
     "private": true,
     "scripts": {
         "compile-normalize": "sass normalize.scss --no-source-map normalize.min.css",
-        "prefix-normalize": "postcss normalize.min.css --no-map -o normalize.min.css"
+        "prefix-normalize": "postcss normalize.min.css --no-map -o normalize.min.css",
+        "compile-normalize-inter": "sass normalize.inter.scss --no-source-map normalize.inter.min.css",
+        "prefix-normalize-inter": "postcss normalize.inter.min.css --no-map -o normalize.inter.min.css"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.0",
