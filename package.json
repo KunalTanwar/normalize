@@ -7,10 +7,10 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "compile-normalize": "sass normalize.scss --no-source-map normalize.min.css",
-        "prefix-normalize": "postcss normalize.min.css --no-map -o normalize.min.css",
-        "compile-normalize-inter": "sass normalize.inter.scss --no-source-map normalize.inter.min.css",
-        "prefix-normalize-inter": "postcss normalize.inter.min.css --no-map -o normalize.inter.min.css"
+        "compile-normalize": "sass scss/normalize.scss --no-source-map css/normalize.min.css",
+        "prefix-normalize": "postcss scss/normalize.min.css --no-map -o css/normalize.min.css",
+        "compile-normalize-inter": "sass css/normalize.inter.scss --no-source-map css/normalize.inter.min.css",
+        "prefix-normalize-inter": "postcss css/normalize.inter.min.css --no-map -o css/normalize.inter.min.css"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.0",
