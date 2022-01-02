@@ -5,7 +5,7 @@
     "repository": "git@github.com:KunalTanwar/normalize-css.git",
     "author": "KunalTanwar <kunaltanwar2@gmail.com>",
     "license": "MIT",
-    "private": true,
+    "private": false,
     "scripts": {
         "compile-normalize": "sass scss/normalize.scss --no-source-map css/normalize.min.css",
         "prefix-normalize": "postcss css/normalize.min.css --no-map -o css/normalize.min.css",
