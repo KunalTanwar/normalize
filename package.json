@@ -8,8 +8,8 @@
     "private": true,
     "scripts": {
         "compile-normalize": "sass scss/normalize.scss --no-source-map css/normalize.min.css",
-        "prefix-normalize": "postcss scss/normalize.min.css --no-map -o css/normalize.min.css",
-        "compile-normalize-inter": "sass css/normalize.inter.scss --no-source-map css/normalize.inter.min.css",
+        "prefix-normalize": "postcss css/normalize.min.css --no-map -o css/normalize.min.css",
+        "compile-normalize-inter": "sass scss/normalize.inter.scss --no-source-map css/normalize.inter.min.css",
         "prefix-normalize-inter": "postcss css/normalize.inter.min.css --no-map -o css/normalize.inter.min.css"
     },
     "devDependencies": {
