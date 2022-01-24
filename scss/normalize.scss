@@ -266,7 +266,7 @@ input[type='radio'],
 input[type='range'],
 input[type='checkbox'] {
     cursor: pointer;
-    appearance: none;
+    // appearance: none;
 }
 
 button,
@@ -277,7 +277,7 @@ select {
 input,
 textarea {
     // IOS FIX - iOS adds a very subtle inset shadow to inputs - *on those have a transparent BG
-    appearance: none;
+    // appearance: none;
 
     &::placeholder {
         user-select: none;
