@@ -10,7 +10,7 @@ To rapidly include the minified production file in your webpage
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KunalTanwar/normalize/css/normalize.min.css" />
 ```
 
-An optional version **normalize.inter.scss** or **normalize.inter.min.css** in which [Inter](https://github.com/rsms/inter) is set as default font.
+An optional version **normalize.inter.min.css** in which [Inter](https://github.com/rsms/inter) is set as default font.
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KunalTanwar/normalize/css/normalize.inter.min.css" />
