@@ -314,6 +314,10 @@ table {
     border-color: inherit;
 }
 
+[hidden] {
+    display: none !important;
+}
+
 // STOLE THESE STYLES FROM @modern-normalize.css
 ::-moz-focus-inner {
     padding: 0;
