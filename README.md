@@ -15,3 +15,8 @@ An optional version **normalize.inter.min.css** in which [Inter](https://github.
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/KunalTanwar/normalize/css/normalize.inter.min.css" />
 ```
+
+### View Raw
+
+[normalize.min.css](https://cdn.jsdelivr.net/gh/KunalTanwar/normalize/css/normalize.min.css)
+[normalize.inter.min.css](https://cdn.jsdelivr.net/gh/KunalTanwar/normalize/css/normalize.inter.min.css)
