@@ -7,9 +7,12 @@
 @import url(https://rsms.me/inter/inter.css);
 
 :root {
-    --primary-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
-        Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --secondary-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+    --primary-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+    --secondary-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        'Liberation Mono', 'Courier New', monospace;
     --tertiary-font: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
 
     @media (prefers-reduced-motion: no-preference) {
@@ -47,7 +50,8 @@ body {
 
     @supports (font-variation-settings: normal) {
         font-family: 'Inter var', var(--primary-font);
-        font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv07', 'cv08', 'cv10', 'cv11'; // OPTIONAL
+        font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv07', 'cv08', 'cv10',
+            'cv11'; // OPTIONAL
     }
 }
 
@@ -184,6 +188,7 @@ h3,
 h4,
 h5,
 h6,
+hr,
 p,
 ul {
     margin-block-end: 0;
