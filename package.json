@@ -1,11 +1,14 @@
 {
     "name": "normalize-css",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "description": "A modern alternative to CSS resets",
     "repository": "git@github.com:KunalTanwar/normalize-css.git",
     "author": "KunalTanwar <kunaltanwar2@gmail.com>",
     "license": "MIT",
     "private": false,
+    "bugs": {
+        "url": "https://github.com/KunalTanwar/normalize/issues"
+    },
     "scripts": {
         "compile-normalize": "sass scss/normalize.scss --no-source-map -s compressed css/normalize.min.css",
         "prefix-normalize": "postcss css/normalize.min.css -u autoprefixer --no-map -r",
