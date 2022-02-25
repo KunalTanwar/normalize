@@ -13,7 +13,8 @@ To rapidly include the minified production file in your webpage
 />
 ```
 
-An optional version **normalize.inter.min.css** in which [Inter](https://github.com/rsms/inter) is set as default font with fallbacks.
+### An optional version 
+_`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is set as default font with fallbacks.
 
 ```html
 <link
