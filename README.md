@@ -1,6 +1,6 @@
 # Normalize CSS
 
-Custom CSS which I use for resetting all default styling.
+Custom CSS which I use for resetting all default styles.
 
 ## Use with a CDN
 
