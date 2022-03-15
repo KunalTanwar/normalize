@@ -50,7 +50,7 @@ body {
 
     @supports (font-variation-settings: normal) {
         font-family: 'Inter var', var(--primary-font);
-        font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv07', 'cv08', 'cv10', 'cv11'; // OPTIONAL
+        font-feature-settings: 'cv07', 'cv08', 'cv10', 'cv11';
     }
 }
 
