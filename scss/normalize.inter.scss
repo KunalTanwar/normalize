@@ -164,8 +164,10 @@ a {
 }
 
 hr {
-    height: 0;
+    border: 0;
+    height: 1px;
     color: inherit;
+    background-color: #e6e6e6;
 }
 
 canvas,
