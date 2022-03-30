@@ -10,13 +10,15 @@
         "url": "https://github.com/KunalTanwar/normalize/issues"
     },
     "scripts": {
-        "finalize-normalize": "sass scss/normalize.scss --no-source-map -s compressed css/normalize.min.css && postcss css/normalize.min.css -u autoprefixer --no-map -r",
-        "finalize-normalize-inter": "sass scss/normalize.inter.scss --no-source-map -s compressed css/normalize.inter.min.css && postcss css/normalize.inter.min.css -u autoprefixer --no-map -r"
+        "compile:normalize": "sass scss/normalize.scss --no-source-map -s compressed css/normalize.min.css",
+        "prefix:normalize": "postcss css/normalize.min.css -u autoprefixer --no-map -r",
+        "compile:normalize-inter": "sass scss/normalize.inter.scss --no-source-map -s compressed css/normalize.inter.min.css",
+        "prefix:normalize-inter": "postcss css/normalize.min.css -u autoprefixer --no-map -r"
     },
     "devDependencies": {
-        "autoprefixer": "^10.4.0",
-        "postcss": "^8.4.5",
+        "autoprefixer": "^10.4.4",
+        "postcss": "^8.4.12",
         "postcss-cli": "^9.1.0",
-        "sass": "^1.45.0"
+        "sass": "^1.49.9"
     }
 }
