@@ -13,7 +13,7 @@ To rapidly include the minified production file in your webpage
 />
 ```
 
-### An optional version 
+### An optional version
 _`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is set as default font with fallbacks.
 
 ```html
@@ -30,7 +30,3 @@ _`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is s
 -   Firefox ESR+
 -   Opera
 -   Safari 8+
-
-## Note
-
-I know there are many libraries like this and also the very famous one created by [Nicolas](https://twitter.com/necolas) which you can find on [normalize.css](https://github.com/necolas/normalize.css) but it is just a personal thing which I felt like sharing with you.
