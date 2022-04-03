@@ -42,7 +42,7 @@ yarn compile
 npm compile
 
 yarn prefix
-#or
+# or
 npm prefix
 ```
 
