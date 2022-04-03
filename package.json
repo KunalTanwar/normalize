@@ -10,8 +10,8 @@
         "url": "https://github.com/KunalTanwar/normalize/issues"
     },
     "scripts": {
-        "compile:normalize": "sass scss/normalize.scss --no-source-map -s compressed css/normalize.min.css && sass scss/normalize.inter.scss --no-source-map -s compressed css/normalize.inter.min.css",
-        "prefix:normalize": "postcss css/normalize.min.css -u autoprefixer --no-map -r && postcss css/normalize.min.css -u autoprefixer --no-map -r"
+        "compile": "sass scss/normalize.scss --no-source-map -s compressed css/normalize.min.css && sass scss/normalize.inter.scss --no-source-map -s compressed css/normalize.inter.min.css",
+        "prefix": "postcss css/normalize.min.css -u autoprefixer --no-map -r && postcss css/normalize.min.css -u autoprefixer --no-map -r"
     },
     "devDependencies": {
         "autoprefixer": "^10.4.4",
