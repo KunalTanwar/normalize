@@ -34,4 +34,16 @@ _`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is s
 
 ### Note
 
-You can change `.browserslistrc` for supporting more previous versions of browsers.
+You can change `.browserslistrc` for supporting more previous versions of browsers. And run following commands :
+
+```bash
+yarn compile
+# or
+npm compile
+
+yarn prefix
+#or
+npm prefix
+```
+
+Don't forget to run `yarn install` or `npm install` in order to install dependencies.
