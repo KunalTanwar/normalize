@@ -14,6 +14,7 @@ To rapidly include the minified production file in your webpage
 ```
 
 ### An optional version
+
 _`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is set as default font with fallbacks.
 
 ```html
@@ -30,3 +31,7 @@ _`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is s
 -   Firefox ESR+
 -   Opera
 -   Safari 8+
+
+### Note
+
+You can change `.browserslistrc` for supporting more previous versions of browsers.
