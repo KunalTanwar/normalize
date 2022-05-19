@@ -14,9 +14,9 @@
         "prefix": "postcss css/normalize.min.css -u autoprefixer --no-map -r && postcss css/normalize.min.css -u autoprefixer --no-map -r"
     },
     "devDependencies": {
-        "autoprefixer": "^10.4.4",
-        "postcss": "^8.4.12",
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.14",
         "postcss-cli": "^9.1.0",
-        "sass": "^1.49.9"
+        "sass": "^1.51.0"
     }
 }
