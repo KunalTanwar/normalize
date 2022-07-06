@@ -311,27 +311,3 @@ table {
 [hidden] {
     display: none !important;
 }
-
-// STOLE THESE STYLES FROM @modern-normalize.css
-::-moz-focus-inner {
-    padding: 0;
-    border-style: none;
-}
-
-:-moz-ui-invalid {
-    box-shadow: none;
-}
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-    height: auto;
-}
-
-::-webkit-search-decoration {
-    appearance: none;
-}
-
-::-webkit-file-upload-button {
-    font: inherit;
-    appearance: button;
-}
