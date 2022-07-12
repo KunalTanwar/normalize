@@ -19,9 +19,9 @@ To rapidly include the minified production file in your webpage
 
 ### An optional version
 
-_`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is set as default font with fallbacks.
+_`normalize.inter.min.css`_ in which [Inter](https://github.com/rsms/inter) is set as default font with fallbacks. Also contains different character variants; `'cv07', 'cv08', 'cv10'`
 
-You can find character variants [here](https://rsms.me/inter/#features/cvXX).
+You can find more character variants [here](https://rsms.me/inter/#features/cvXX).
 
 ```html
 <link
